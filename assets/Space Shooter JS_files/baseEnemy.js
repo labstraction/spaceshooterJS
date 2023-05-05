@@ -12,8 +12,7 @@ class BaseEnemy extends GameObject{
         }
     }
 
-    collision(other){
-        
+    collision(){
         this.healthPoints--
         if (this.healthPoints <= 0) {
             this.isAlive = false;

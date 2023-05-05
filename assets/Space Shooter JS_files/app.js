@@ -59,7 +59,7 @@ function checkCollision() {
 
             if (pA.isColliding(enemy)) {
                 pA.collision()
-                enemy.collision(pA);
+                enemy.collision();
             }
             
         }
